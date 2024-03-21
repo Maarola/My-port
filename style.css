@@ -308,7 +308,7 @@ li a:hover{
 
 .project{
     background-color: #f9f9f9;
-    height: 60vh;
+    height: auto;
     width: 100%;
 }
 
@@ -328,6 +328,9 @@ li a:hover{
     display: flex;
     flex-direction: row;
     gap: 3.5rem;
+    justify-content: center;
+    inline-size: 90%;
+    flex-wrap: wrap;
 }
 
 .card__article{
