@@ -215,7 +215,7 @@ li a:hover{
 .div-scroll-down{
     position: fixed;
     z-index: 100;
-    top: 94%;
+    top: 93%;
     left: 50%;
     transition: 1.20s;
 }
@@ -304,4 +304,144 @@ li a:hover{
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5;
+}
+
+.project{
+    background-color: #f9f9f9;
+    height: 60vh;
+    width: 100%;
+}
+
+.project__container{
+    display: grid;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 5rem;
+}
+.project__tittle{
+    color:#2d2e32;
+    text-transform: uppercase;
+    margin-bottom: 3.5rem;
+}
+
+.card__containe{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+
+.card__article{
+    position: relative;
+    overflow: hidden;
+}
+
+.card__img{
+    width: 420px;
+    height: 250px;
+    border-radius: 1.5rem;
+}
+
+.project__card{
+    width: 280px;
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    box-shadow:  0 8px 24px hsla(0, 0%, 0%, .15);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity: 1;
+    transition: opacity 1s 1s;
+
+}
+
+.card__description{
+    font-family: Mulish;
+    display: block;
+    font-size: 1rem;
+
+}
+
+.card__tittle{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2d2e32;
+    margin-bottom: .75rem;
+}
+
+.links__project{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 2.5rem;
+}
+
+.card__button{
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+@keyframes show-card{
+    50%{
+        transform: translateY(-10rem);
+    }100%{
+        transform: translateY(-7rem);
+    }
+}
+
+.card__article:hover .project__card{
+    animation: show-card 1s forwards;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+
+.card__article:hover{
+    animation: remove-overflow 2s forwards;
+}
+
+@keyframes remove-card{
+    0%{
+        transform: translateY(-7rem);
+    }50%{
+        transform: translateY(-10rem);
+    }100%{
+        transform: translateY(.5rem);
+    }
+}
+
+@keyframes show-overflow{
+    0%{
+        overflow: inherit;
+        pointer-events: none;
+    }50%{
+        overflow: hidden;
+    }
+}
+.card__article:not(:hover){
+    animation: show-overflow 1s forwards;
+}
+
+.card__article:not(:hover) .project__card{
+    animation: remove-card 1s forwards;
+    
+}
+
+@media screen and (max-width: 1120px){
+    .card__containe{
+        height: 100vh;
+    }
+
+    .project__card{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
