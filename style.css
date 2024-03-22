@@ -343,7 +343,6 @@ li a:hover{
     width: 420px;
     height: 250px;
     border-radius: 1.5rem;
-    border: 2px solid #2d2e32;
 }
 
 .project__card{
@@ -447,8 +446,7 @@ li a:hover{
 
 footer{
     width: 100%;
-    gap: 30px;
-    padding: 18px;
+    padding: 10px;
     background: #222;
     border-top: 1px solid rgb(15, 15, 15);
     box-sizing: border-box;
@@ -471,17 +469,17 @@ footer{
 footer h3{
     color: #fff;
     font-size: 1rem;
-}
+    font-weight: 500;
+}   
 
 .footer__icons{
     align-items: center;
     display: flex;
     gap: 2rem;
     justify-content: center;
-    margin-top: 1rem;
 }
 
 .footer__icons a{
     color: #fff;
-    font-size: rem;
+    font-size: 1rem;
 }
