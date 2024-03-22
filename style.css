@@ -463,7 +463,8 @@ footer{
 .footer__container-2{
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 
 footer h3{
@@ -482,4 +483,9 @@ footer h3{
 .footer__icons a{
     color: #fff;
     font-size: 1rem;
+    transition: all 1s;
+}
+
+.footer__icons a:hover{
+    color: #2196da;
 }
