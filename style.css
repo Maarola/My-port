@@ -137,6 +137,7 @@ li a:hover{
     font-weight: 700;
     text-transform: uppercase;
     border: 2px solid #2d2e32;
+    transition: all .2s ease-in-out
 }
 
 .main__btn-cv:hover{
