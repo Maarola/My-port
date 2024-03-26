@@ -555,6 +555,8 @@ footer h3{
     .main__img-my{
         position: absolute;
         top: -22rem;
+        width: 18rem;
+        height: 18rem;
     }
 
     .main__div-text{
@@ -562,13 +564,18 @@ footer h3{
     }
 
     .main__div-text h1{
-        font-size: 3.7rem;
+        font-size: 2rem;
+    }
+
+    .main__div-text p {
+        font-size: 0.6rem;
     }
 
     .main__img-waving{
-
-        top: 80px;
-        right: 40px;
+        height: 2.5rem;
+        width: 2.5rem;
+        top: 37px;
+        right: 10px;
         
     }
 
