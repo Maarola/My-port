@@ -440,7 +440,59 @@ li a:hover{
     
 }
 
+.contact{
+    background-color: #FFF;
+    padding: 11rem 0;
+}
 
+.container__contact{
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.content__contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__title p{
+    color: #2196da;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.contact__title {
+    color: #2d2e32;
+    font-size: 1rem;
+}
+
+.contact__icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 6rem;
+}
+
+.contact__icon-box{
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact__icon-box span{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #2196da;
+    display: flex;
+    height: 3.3rem;
+    justify-content: center;
+    width: 3.3rem;
+}
 
 
 
