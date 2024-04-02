@@ -288,13 +288,17 @@ li a:hover{
     text-transform: uppercase;
 }
 
+.about__div-text{
+    margin-bottom: 2rem;
+}
+
 .about__text h4{
     color: #2d2e32;
     font-family: Poppins, sans-serif;
     font-size: 2.1rem;
     line-height: 1.4;
-    margin-bottom: 2rem;
 }
+
 
 .about__text p{
     color: #555;
@@ -543,6 +547,9 @@ footer h3{
 
 @media (max-width: 900px) {
 
+    header nav ul{
+        overflow: hidden;
+    }
     .hero{
         height: auto;
         text-align: center;
@@ -611,4 +618,99 @@ footer h3{
 
         gap: 0rem;
     }
+
+    .about{
+        padding: 5rem 0;
+        text-align: center;
+    }
+
+    .about__text{
+        padding: 0;
+    }
+
+    .about__content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__img img {
+        align-content: center;
+        width: 250px;
+        height: 150px;
+    }
+    
+    .about__div-text {
+        align-content: center;
+    }
+
+    .about__text h4 {
+        font-size: 1rem;
+        width: 300px; 
+    }
+
+    .about__text p {
+        font-size: 1rem;
+    }
+
+    .project__container {
+        align-items: center;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project__tittle{
+        font-size: 1rem;
+    }
+
+    .card__img{
+        width: 250px;
+        height: 150px;
+    }
+
+    .project__card{
+        width: 220px;
+    }
+
+    .card__description{
+        font-size: 0.9rem;
+    }
+
+    .card__tittle{
+        font-size: 0.8rem;
+    }
+
+    .card__button{
+        font-size: 0.8rem;
+    }
+
+    .contact__title{
+        font-size: 0.8rem;
+    }
+
+    .contact{
+        padding: 5rem 0;
+    }
+
+    .contact__icon{
+        gap: 4rem;
+        margin-top: 3rem;
+    }
+
+    .contact__icon a, p{
+        font-size: 0.8rem;
+    }
+
+    .footer__container-2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__container-2 h3{
+        font-size: 0.7rem;
+        width: 500px;
+        margin-bottom: 0.5rem;
+    }
+
 }
