@@ -547,7 +547,13 @@ footer h3{
 
 @media (max-width: 900px) {
 
-    header nav ul{
+    nav{
+        display: flex;
+        justify-content: center ;
+    }
+
+    .div__ul{
+        background-color: #2196da;
         overflow: hidden;
     }
     .hero{
