@@ -720,4 +720,7 @@ footer h3{
         margin-bottom: 0.5rem;
     }
 
+    html{
+        overflow-x: hidden;
+    }
 }
