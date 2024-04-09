@@ -391,6 +391,11 @@ li a:hover{
     font-weight: 500;
     cursor: pointer;
 }
+
+.novacor{
+    color: #2196da;
+}
+
 @keyframes show-card{
     50%{
         transform: translateY(-10rem);
