@@ -501,8 +501,6 @@ li a:hover{
     width: 3.3rem;
 }
 
-
-
 footer{
     width: 100%;
     padding: 10px;
@@ -563,7 +561,7 @@ footer h3{
         
     }
     .hero{
-        height: auto;
+        height: 100vh;
         text-align: center;
     }
     .main__hero{

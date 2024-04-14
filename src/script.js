@@ -8,7 +8,6 @@ window.addEventListener("scroll", function(){
 });
 
 // function header
-
 window.addEventListener("scroll", function(){
     let inicio = document.querySelector(".inicio");
     let sobre = document.querySelector(".sobre");
