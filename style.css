@@ -631,6 +631,7 @@ footer h3{
     }
 
     .about{
+        width: 100vh;
         padding: 5rem 0;
         text-align: center;
     }
@@ -663,6 +664,9 @@ footer h3{
         font-size: 1rem;
     }
 
+    .project {
+        width: 100vh;
+    }
     .project__container {
         align-items: center;
 
@@ -700,6 +704,7 @@ footer h3{
     }
 
     .contact{
+        width: 100vh;
         padding: 5rem 0;
     }
 
@@ -712,6 +717,9 @@ footer h3{
         font-size: 0.8rem;
     }
 
+    .footer {
+        width: 100vh;
+    }
     .footer__container-2 {
         text-align: center;
         display: flex;
