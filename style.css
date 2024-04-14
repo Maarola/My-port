@@ -709,7 +709,7 @@ footer h3{
     }
 
     .contact__icon{
-        gap: 4rem;
+        gap: 2rem;
         margin-top: 3rem;
     }
 
@@ -717,10 +717,9 @@ footer h3{
         font-size: 0.8rem;
     }
 
-    .footer {
-        width: 100vh;
-    }
+
     .footer__container-2 {
+        width: 100vh;
         text-align: center;
         display: flex;
         flex-direction: column;
