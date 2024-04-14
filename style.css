@@ -560,8 +560,9 @@ footer h3{
         left: 200%;
         
     }
+    
     .hero{
-        width: 100vh;
+        width: 100%;
         height: auto;
         text-align: center;
     }
@@ -631,7 +632,6 @@ footer h3{
     }
 
     .about{
-        width: 100vh;
         padding: 5rem 0;
         text-align: center;
     }
@@ -664,9 +664,6 @@ footer h3{
         font-size: 1rem;
     }
 
-    .project {
-        width: 100vh;
-    }
     .project__container {
         align-items: center;
 
@@ -708,7 +705,7 @@ footer h3{
     }
 
     .contact__icon{
-        gap: 2rem;
+        gap: 4rem;
         margin-top: 3rem;
     }
 
@@ -716,9 +713,11 @@ footer h3{
         font-size: 0.8rem;
     }
 
+    footer {
+        width: 100%;
+    }
 
     .footer__container-2 {
-        width: 100vh;
         text-align: center;
         display: flex;
         flex-direction: column;
