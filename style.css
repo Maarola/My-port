@@ -612,7 +612,7 @@ footer h3{
     .main__skills{
         padding: relative;
         left: 0;
-        top: 80%;
+        top: 90%;
         display: flex;
         flex-direction: column;
         gap: 0;
@@ -633,7 +633,8 @@ footer h3{
     }
 
     .main__content{
-        height: 57rem;
+        height: 45rem;
+        margin-bottom: 5rem;
     }
 
     .about{
