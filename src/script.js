@@ -14,8 +14,8 @@ window.addEventListener("scroll", function(){
     let projeto = document.querySelector(".projeto");
     let contato = document.querySelector(".contato");
 
-    inicio.classList.toggle("novacor", window.scrollY < 960);
-    sobre.classList.toggle("novacor", window.scrollY > 960 && window.scrollY < 1850);
-    projeto.classList.toggle("novacor", window.scrollY > 1850 && window.scrollY < 2500);
-    contato.classList.toggle("novacor", window.scrollY > 2500);
+    inicio.classList.toggle("novacor", window.scrollY < 860);
+    sobre.classList.toggle("novacor", window.scrollY > 860 && window.scrollY < 1895);
+    projeto.classList.toggle("novacor", window.scrollY > 1895 && window.scrollY < 2520);
+    contato.classList.toggle("novacor", window.scrollY > 2520);
 });

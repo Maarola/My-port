@@ -310,15 +310,14 @@ li a:hover{
 
 .project{
     background-color: #f9f9f9;
-    height: auto;
     width: 100%;
+    padding: 7rem 0 ;
 }
 
 .project__container{
     display: grid;
     place-items: center;
     margin-inline: 1.5rem;
-    padding-block: 5rem;
 }
 .project__tittle{
     color:#2d2e32;
@@ -348,7 +347,7 @@ li a:hover{
 }
 
 .project__card{
-    width: 280px;
+    width: 340px;
     background-color: #fff;
     padding: 1.5rem 2rem;
     box-shadow:  0 8px 24px hsla(0, 0%, 0%, .15);
