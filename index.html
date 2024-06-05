@@ -19,15 +19,27 @@
 </head>
 <body>
     <!-- Header Start -->
-    <header>
+    <header class="header">
         <nav>
-           <h1 class="logo"><a href="#home">Alan.dev</a></h1>
+           <h1 class="logo"><a class="logoa" href="#home">Alan.dev</a></h1>
            <div class="div__ul">
+
+            <div id="toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="btn__sun">
+                    <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="btn__moon">
+                    <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+                  </svg>
+                  
+                  
+            </div>
+
                 <ul>
                     <li><a class="inicio novacor" href="#home">Inicio</a></li>
-                    <li><a class="sobre" href="#about">Sobre</a></li>
-                    <li><a class="projeto"href="#projects">Projetos</a></li>
-                    <li><a class="contato" href="#contacts">Contatos</a></li>
+                    <li><a class="sobre " href="#about">Sobre</a></li>
+                    <li><a class="projeto "href="#projects">Projetos</a></li>
+                    <li><a class="contato " href="#contacts">Contatos</a></li>
                 </ul>
            </div>
         </nav>
@@ -44,16 +56,16 @@
                         <div class="main__div-text">
                             <h1>Font-End Junior <br> Developer </h1>
                             <img class="main__img-waving" src="assets/main/waving.png" alt="waving hand">
-                            <p>
+                            <p class="main__text-p colorwhite">
                                 Olá, me chamo Alan Magalhães. Desenvolvedor Front-End <br> nascido em São Paulo, Brasil. 📍
                             </p>
                             <span>
                                 <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/alan-magalh%C3%A3es-71b084208/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon iconlikedin iconstabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
                                     </svg>
                                 </a>
                                 <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/Maarola">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon icongithub tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
                                     </svg>
                                 </a>
                                 <a href="assets/Curriculo - Alan Magalhaes.pdf" download class="main__btn-cv">Donwload CV</a>
@@ -62,7 +74,7 @@
                         <div class="main__img-my"></div>
                     </div>
                     <div class="main__skills">
-                        <p>Linguagens</p>
+                        <p class="main__p-text">Habilidades</p>
                         <p class="main__p-hidden">|</p>
                         <div class="main__skills-logos">
                             <ul>
@@ -94,11 +106,11 @@
                     <div class="about__text">
                         <h3>sobre</h3>
                         <div class="about__div-text">
-                            <h4>Alan Magalhães</h4>
-                            <h4>Um pouco da minha experiencia 🧑‍💻</h4>
+                            <h4 class="about__texth4-1">Alan Magalhães</h4>
+                            <h4 class="about__texth4-2">Um pouco da minha experiencia 🧑‍💻</h4>
                         </div>
 
-                        <p>Anteriormente, atuei como Analista de TI, desempenhando diversas responsabilidades, tais como suporte aos colaboradores da matriz atraves do service desk, instalação de aplicações, configuração de servidores e impressoras, assistência a colaboradores em home office pelo TeamViewer, entre outras atividades.<br><br>  Paralelamente, estou cursando o Bacharelado em Ciência da Computação, no 7° semestre, na Universidade Nove de Julho (UNINOVE), com foco no desenvolvimento web, onde tenho interesse particular em HTML, CSS e JS. Além disso, tenho explorado outras linguagens de programação, tendo desenvolvido BOTS em Python e JavaScript para Discord e websites para praticar meus conhecimentos. e agora estou ampliando minhas habilidades em linguagens de marcação e programação na Alura.</p>
+                        <p class="about__text-p">Anteriormente, atuei como Analista de TI, desempenhando diversas responsabilidades, tais como suporte aos colaboradores da matriz atraves do service desk, instalação de aplicações, configuração de servidores e impressoras, assistência a colaboradores em home office pelo TeamViewer, entre outras atividades.<br><br>  Paralelamente, estou cursando o Bacharelado em Ciência da Computação, no 7° semestre, na Universidade Nove de Julho (UNINOVE), com foco no desenvolvimento web, onde tenho interesse particular em HTML, CSS e JS. Além disso, tenho explorado outras linguagens de programação, tendo desenvolvido BOTS em Python e JavaScript para Discord e websites para praticar meus conhecimentos. e agora estou ampliando minhas habilidades em linguagens de marcação e programação na Alura.</p>
                     </div>
                 </div>
             </div>
@@ -113,10 +125,10 @@
                     <article class="card__article">
 
                         <img class="card__img" src="assets/proj/LeadingPageCoffee.png" alt="">   
-                        <div class="project__card">
-                            <span class="card__description">HTML e CSS </span>
-                            <h2 class="card__tittle">Leading Page Coffee</h2>
-                            <div class="links__project">
+                        <div class="project__card card_1">
+                            <span class="card__description ">HTML e CSS </span>
+                            <h2 class="card__tittle card_desc_1">Leading Page Coffee</h2>
+                            <div class="links__project card_1">
                                 <a href="https://github.com/Maarola/Landing-Page-Coffee" target="_blank" class="card__button">GitHub</a>
                                 <a class="card__button" href="https://maarola.github.io/Landing-Page-Coffee/" target="_blank">Live Mode</a>
                             </div>
@@ -126,7 +138,7 @@
                     <article class="card__article">
 
                         <img class="card__img" src="assets/proj/newsPage.png" alt="">  
-                        <div class="project__card">
+                        <div class="project__card card_2">
                             <span class="card__description">HTML, SASS e JS</span>
                             <h2 class="card__tittle">News Home Page</h2>
                             <div class="links__project">
@@ -140,7 +152,7 @@
                     <article class="card__article">
 
                         <img class="card__img" src="assets/proj/avalanche.png" alt="">
-                        <div class="project__card">
+                        <div class="project__card card_3">
                             <span class="card__description">NodeJS </span>
                             <h2 class="card__tittle">Avalanche Bot Discord</h2>
                             <div class="links__project">
@@ -152,7 +164,7 @@
                     <article class="card__article">
 
                         <img class="card__img" src="assets/proj/snakeGame.png" alt="">
-                        <div class="project__card">
+                        <div class="project__card card_4">
                             <span class="card__description">HTML, CSS e JS </span>
                             <h2 class="card__tittle">Snake Game</h2>
                             <div class="links__project">
@@ -165,7 +177,7 @@
                     <article class="card__article">
 
                         <img class="card__img" src="assets/proj/emBreve.png" alt="">  
-                        <div class="project__card">
+                        <div class="project__card card_5">
                             <span class="card__description">Lingagens </span>
                             <h2 class="card__tittle">Em breve</h2>
                             <div class="links__project">
@@ -178,7 +190,33 @@
                     <article class="card__article">
 
                         <img class="card__img" src="assets/proj/emBreve.png" alt="">  
-                        <div class="project__card">
+                        <div class="project__card card_6">
+                            <span class="card__description">Lingagens </span>
+                            <h2 class="card__tittle">Em breve</h2>
+                            <div class="links__project">
+                                <a href="#" class="card__button">GitHub</a>
+                                <a class="card__button" href="#">Live Mode</a>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article class="card__article">
+
+                        <img class="card__img" src="assets/proj/emBreve.png" alt="">  
+                        <div class="project__card card_7">
+                            <span class="card__description">Lingagens </span>
+                            <h2 class="card__tittle">Em breve</h2>
+                            <div class="links__project">
+                                <a href="#" class="card__button">GitHub</a>
+                                <a class="card__button" href="#">Live Mode</a>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article class="card__article">
+
+                        <img class="card__img" src="assets/proj/emBreve.png" alt="">  
+                        <div class="project__card card_8">
                             <span class="card__description">Lingagens </span>
                             <h2 class="card__tittle">Em breve</h2>
                             <div class="links__project">
@@ -199,11 +237,11 @@
                 <div class="content__contact">
                     <div class="contact__title">
                         <p>contatos</p>
-                        <h1>Não seja timido, Me chame!👇</h1>
+                        <h1 class="contact__h1">Não seja timido, Me chame!👇</h1>
                     </div>
                     <div class="contact__icon">
-                        <div class="contact__icon-box"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-map-search"><path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path><path d="M9 4v13"></path><path d="M15 7v5"></path><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path><path d="M20.2 20.2l1.8 1.8"></path></svg></span><div class="contact__info"><h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Localização</font></font></h3><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">São paulo, Brasil</font></font></p></div></div>
-                        <div class="contact__icon-box"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-mail"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path><path d="M3 7l9 6l9 -6"></path></svg></span><div class="contact__info"><h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">E-mail</font></font></h3><a href="mailto:alan.magalhaes.dev@gmail.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alan.magalhaes.dev@gmail.com</font></font></a></div></div>
+                        <div class="contact__icon-box"><span class="contact__span-1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-map-search"><path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path><path d="M9 4v13"></path><path d="M15 7v5"></path><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path><path d="M20.2 20.2l1.8 1.8"></path></svg></span><div class="contact__info contact_1"><h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Localização</font></font></h3><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">São paulo, Brasil</font></font></p></div></div>
+                        <div class="contact__icon-box"><span class="contact__span-2"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-mail"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path><path d="M3 7l9 6l9 -6"></path></svg></span><div class="contact__info contact_2"><h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">E-mail</font></font></h3><a href="mailto:alan.magalhaes.dev@gmail.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;" class="contact_email">alan.magalhaes.dev@gmail.com</font></font></a></div></div>
                     </div>
                 </div>
             </div>
@@ -214,14 +252,14 @@
     <!-- Main Finish -->
 
     <!-- Footer Finish -->
-    <footer>
+    <footer class="footer">
         <div class="footer__container">
             <div class="footer__container-2">
                 <div></div>
-                <h3>© Criado e desenvolvido por Alan Magalhães</h3>
+                <h3 class="footer__text">© Criado e desenvolvido por Alan Magalhães</h3>
                 <div class="footer__icons">
-                    <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/stefan-topalovic-dev/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a>
-                    <a aria-label="github" target="_blank" rel="noreferrer" href="https://github.com/stefvndev"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a>
+                    <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/stefan-topalovic-dev/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon iconlikedin2 iconwhite tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a>
+                    <a aria-label="github" target="_blank" rel="noreferrer" href="https://github.com/stefvndev"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon iconwhite icongithub2 tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a>
                 </div>
             </div>
         </div>

@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
+
 header {
     background-color: #ffff;
     align-items: center;
@@ -13,8 +14,11 @@ header {
     top: 0;
     z-index: 200;
     position: fixed;
+    transition: 0.3s;
 }
-
+.header__novacor {
+    background-color: #212121;
+}
 nav {
     padding: fixed;
     padding: 25px 64px 20px 50px;
@@ -32,6 +36,20 @@ nav ul {
     justify-items: center;
     padding-top: 5px;
 }
+.colorwrithe{
+    color: #fff;
+}
+
+.colorblack {
+    color: #212121;
+}
+.colorblack:hover{
+    color: #2196da;
+}
+
+.main__text-p.colorwrithe{
+    color: #fff;
+}
 
 .logo a{
     text-transform: uppercase;
@@ -41,10 +59,30 @@ nav ul {
     font-size: 1.34rem;
 }
 
-.logo a:hover {
-    color: #2d2e32;
+.div__ul{
+    color: #242527;
+    display: flex;
+    gap: 30px;   
 }
 
+#toggle {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn__sun{
+    color: #fff;
+    display: none
+}
+
+.btn__moon{
+    color: #575656;
+    display: flex;
+}
+
+svg {
+        width: 30px;
+}
 
 
 li a {
@@ -59,6 +97,10 @@ li a:hover{
     color:#2196da;
 }
 
+.logoa{
+    color: #212121;
+}
+
 .hero {
     background-color: #f9f9f9;
     display: flex;
@@ -66,6 +108,7 @@ li a:hover{
     position: relative;
     height: 100vh;
     width: 100%;
+    transition: 0.3s;
 }
 
 .main__container {
@@ -103,6 +146,7 @@ li a:hover{
     counter-reset: #2d2e32;
     font-size: 3.4rem;
     line-height: 0.8;
+    transition: 0.3s;
 }
 
 .main__img-waving {
@@ -122,7 +166,7 @@ li a:hover{
 }
 
 .main__div-text span {
-    color: pointer;
+    cursor: pointer;
     display: flex;
     gap: 1.3rem;
     margin: 1rem 0;
@@ -140,10 +184,11 @@ li a:hover{
 }
 
 .main__btn-cv:hover{
-    background-color: #2d2d2d;
     border-radius: 9.9px;
-    color: #fff ;
-
+    color: #2196da;
+}
+.btnwhite{
+    color: #fff
 }
 
 .main__img-my {
@@ -169,6 +214,20 @@ li a:hover{
     }100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
+}
+.iconlikedin, .icongithub{
+    color: #212121;
+}
+
+.icongithub2.colorblack, .iconlikedin2.colorblack{
+    color: #212121;
+}
+.iconwhite{
+    color: #fff;
+}
+
+.iconlikedin:hover, .icongithub:hover{
+    color: #2196da;
 }
 
 .main__skills {
@@ -251,6 +310,10 @@ li a:hover{
 .about{
     background-color: #fff;
     padding: 15rem 0;
+    transition: 0.3s;
+}
+.bout__background{
+    background-color: #212121;
 }
 
 .about__container{
@@ -312,6 +375,7 @@ li a:hover{
     background-color: #f9f9f9;
     width: 100%;
     padding: 7rem 0 ;
+    transition: 0.3s;
 }
 
 .project__container{
@@ -335,6 +399,7 @@ li a:hover{
 }
 
 .card__article{
+    
     position: relative;
     overflow: hidden;
 
@@ -353,12 +418,20 @@ li a:hover{
     box-shadow:  0 8px 24px hsla(0, 0%, 0%, .15);
     border-radius: 1rem;
     position: absolute;
-    bottom: -9rem;
+    bottom: -8rem;
     left: 0;
     right: 0;
     margin-inline: auto;
     opacity: 1;
     transition: opacity 1s 1s;
+
+}
+
+.project__card.card_black{
+    color: #fff;
+}
+.card_black{
+    background-color: #2d2e30;
 
 }
 
@@ -372,7 +445,6 @@ li a:hover{
 .card__tittle{
     font-size: 1.2rem;
     font-weight: 600;
-    color: #2d2e32;
     margin-bottom: .75rem;
 }
 
@@ -385,7 +457,15 @@ li a:hover{
     gap: 2.5rem;
 }
 
+.card_black .card__button{
+    color: #fff;
+}
+
+.card_black .card__button:hover{
+    color: #2196da;
+}
 .card__button{
+    color: #212121;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
@@ -416,7 +496,7 @@ li a:hover{
 }
 
 .card__article:hover{
-    animation: remove-overflow 2s forwards;
+    animation: remove-overflow 1s forwards;
 }
 
 @keyframes remove-card{
@@ -449,6 +529,7 @@ li a:hover{
 .contact{
     background-color: #FFF;
     padding: 11rem 0;
+    transition: 0.3s;
 }
 
 .container__contact{
@@ -490,7 +571,7 @@ li a:hover{
 
 .contact__icon-box span{
     align-items: center;
-    background-color: #fff;
+    background-color: #f9f9f9;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     color: #2196da;
@@ -499,12 +580,23 @@ li a:hover{
     justify-content: center;
     width: 3.3rem;
 }
+.contact__info-white{
+    color: #fff;
+}
+
+.contact_email{
+    color: #212121;
+}
+
+.contact_email:hover{
+    color: #2196da;
+    transition: 0.6s all;
+}
 
 footer{
     width: 100%;
     padding: 10px;
     background: #222;
-    border-top: 1px solid rgb(15, 15, 15);
     box-sizing: border-box;
     backdrop-filter: blur(200px);
     color: #ffffff;
@@ -530,21 +622,22 @@ footer h3{
 }   
 
 .footer__icons{
+    margin-top: 3px;
     align-items: center;
     display: flex;
     gap: 2rem;
     justify-content: center;
 }
 
-.footer__icons a{
-    color: #fff;
+.tabler-icon{
     font-size: 1rem;
     transition: all 1s;
 }
 
-.footer__icons a:hover{
+.tabler-icon:hover{
     color: #2196da;
 }
+
 
 
 @media (max-width: 900px) {
@@ -552,9 +645,11 @@ footer h3{
     nav{
         display: flex;
         justify-content: center ;
+        
     }
 
     .div__ul{
+
         position: absolute;
         left: 200%;
     }
