@@ -62,11 +62,10 @@ toggle.onclick = function(){
     let card_4 = document.querySelector(".card_4")
     let card_5 = document.querySelector(".card_5")
     let card_6 = document.querySelector(".card_6")
-    let card_7 = document.querySelector(".card_7")
-    let card_8 = document.querySelector(".card_8")
+    let mouse = document.querySelector(".mouse")
+    let mouse_wheel = document.querySelector(".mouse-wheel")
 
-
-    let white = "colorwrithe"
+    let white = "colorwhite"
     let black = "colorblack"
     let bg = "bout__background" 
    
@@ -102,6 +101,10 @@ toggle.onclick = function(){
         span2.classList.toggle(white);
         border_main__img.style.border = "3px solid #fff";
 
+        // scroll
+        mouse.style.border = "2px solid #fff"
+        mouse_wheel.style.background = "#fff"
+
         // project
         project.style.background = "#2d2e30"
         project__txt.style.color = "#fff"
@@ -111,8 +114,7 @@ toggle.onclick = function(){
         card_4.classList.toggle("card_black")
         card_5.classList.toggle("card_black")
         card_6.classList.toggle("card_black")
-        card_7.classList.toggle("card_black")
-        card_8.classList.toggle("card_black")
+
         
         // about
         about.classList.toggle(bg)
@@ -155,13 +157,21 @@ toggle.onclick = function(){
         span.classList.toggle(white);
         span2.classList.toggle(white);
         text_skils2.classList.toggle(white)
-        border_main__img.style.border = "3px solid #2d2e32";          
+        border_main__img.style.border = "3px solid #2d2e32";  
+
+        // scroll
+        mouse.style.border = "2px solid #2d2e32"
+        mouse_wheel.style.background = "#2d2e32"
 
         // project
         project.style.background ="#f9f9f9"
         project__txt.style.color = "#2d2e32"
-        card_1.style.background = "#fff"
         card_1.classList.toggle("card_black")
+        card_2.classList.toggle("card_black")
+        card_3.classList.toggle("card_black")
+        card_4.classList.toggle("card_black")
+        card_5.classList.toggle("card_black")
+        card_6.classList.toggle("card_black")
 
         // about
         about_text.style.color = "#2d2e32"
@@ -185,10 +195,6 @@ toggle.onclick = function(){
         footer_github.classList.toggle(black)
         footer_linkedin.classList.toggle(black)
                 
-
-
-
-       
     }
     
 }

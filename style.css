@@ -36,7 +36,7 @@ nav ul {
     justify-items: center;
     padding-top: 5px;
 }
-.colorwrithe{
+.colorwhite{
     color: #fff;
 }
 
@@ -47,8 +47,8 @@ nav ul {
     color: #2196da;
 }
 
-.main__text-p.colorwrithe{
-    color: #fff;
+.main__text-p.colorwhite{
+    color: #ffffffb2;
 }
 
 .logo a{
@@ -100,6 +100,14 @@ li a:hover{
 .logoa{
     color: #212121;
 }
+.logoa.colorwhite{
+    color: #Fff;
+}
+
+.logoa.colorwhite:hover{
+    color: #2196da;
+}
+
 
 .hero {
     background-color: #f9f9f9;
@@ -215,6 +223,10 @@ li a:hover{
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
 }
+
+.iconlikedin.colorwhite,.icongithub.colorwhite{
+    color: #fff;
+}
 .iconlikedin, .icongithub{
     color: #212121;
 }
@@ -291,7 +303,7 @@ li a:hover{
     display: block;
     width: 10px;
     height: 10px;
-    background-color: #2d2e32;
+    background: #2d2e32;
     border-radius: 50%;
     margin: auto;
     animation: move-whell 1s linear infinite;
@@ -362,8 +374,10 @@ li a:hover{
     line-height: 1.4;
 }
 
-
-.about__text p{
+.about__text-p.colorwhite{
+    color: #ffffffb2;
+}
+.about__text-p{
     color: #555;
     font-family: Mulish, sans-serif;
     font-size: 1.2rem;
@@ -588,6 +602,10 @@ li a:hover{
     color: #212121;
 }
 
+.contact_email.colorwhite{
+    color: #fff;
+}
+
 .contact_email:hover{
     color: #2196da;
     transition: 0.6s all;
@@ -600,6 +618,7 @@ footer{
     box-sizing: border-box;
     backdrop-filter: blur(200px);
     color: #ffffff;
+    transition: 0.3s;
 }
 
 .footer__container{
