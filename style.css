@@ -667,6 +667,31 @@ footer h3{
     color: #2196da;
 }
 
+@media (max-width: 1519px) {
+
+    .about{
+        padding: 5rem 0;
+        text-align: center;
+    }
+
+    .about__text{
+        padding: 0;
+    }
+
+    .about__content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__div-text {
+        align-content: center;
+    }
+
+    .about__text-p{
+        width: 65rem;
+    }
+
+}
 
 
 @media (max-width: 900px) {
