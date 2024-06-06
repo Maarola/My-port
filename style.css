@@ -66,6 +66,8 @@ nav ul {
 }
 
 #toggle {
+    position: relative;
+    margin-top: 4px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -81,7 +83,7 @@ nav ul {
 }
 
 svg {
-        width: 30px;
+        width: 25px;
 }
 
 
