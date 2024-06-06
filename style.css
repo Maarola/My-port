@@ -74,12 +74,20 @@ nav ul {
 
 .btn__sun{
     color: #fff;
-    display: none
+    display: none;
+    transition: 0.3s all;
+}
+.btn__sun:hover{
+    color: #2196da;
 }
 
 .btn__moon{
     color: #575656;
     display: flex;
+    transition: 0.3s all;
+}
+.btn__moon:hover{
+    color: #2196da;
 }
 
 svg {
