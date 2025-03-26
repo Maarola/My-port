@@ -5,14 +5,14 @@
     margin: 0;
 
     scrollbar-width: thin;
-    scrollbar-color: #8e8e8e #fff;
+    scrollbar-color: #8e8e8e #ffffff00;
     scroll-behavior: smooth
 }
 
 body{
 
     font-family: Poppins;
-    color: #2d2e32;
+    color: #21212100;
 }
 
 a{
