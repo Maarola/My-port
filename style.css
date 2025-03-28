@@ -569,9 +569,9 @@ li a:hover{
 
 .contact__title p{
     color: #2196da;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     text-transform: uppercase;
 }
 
@@ -584,18 +584,18 @@ li a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .contact__icon-box{
     align-items: center;
     display: flex;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .contact__icon-box span{
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #f1efef;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     color: #2196da;
